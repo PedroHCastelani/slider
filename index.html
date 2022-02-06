@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="header"></div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()">Voltar</div>
+                <div class="slider--control" onclick="goNext()">Proximo</div>
+            </div>
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url('images/1.jpg');"></div>
+                <div class="slider--item" style="background-image: url('images/2.jpg');"></div>
+                <div class="slider--item" style="background-image: url('images/3.jpg');"></div>
+            </div>
+        </div>
+    </header>
+    <section class="slidefixo">
+        <div class="sliderfixo">
+            <div class="sliderfixo--controls">
+                <div class="sliderfixo--control" onclick="goPrevFixo()">Voltar</div>
+                <div class="sliderfixo--control" onclick="goNextFixo()">Proximo</div>
+            </div>
+            <div class="sliderfixo--width">
+                <div class="sliderfixo--item" style="background-image: url('images/1.jpg');"></div>
+                <div class="sliderfixo--item" style="background-image: url('images/2.jpg');"></div>
+                <div class="sliderfixo--item" style="background-image: url('images/3.jpg');"></div>
+            </div>
+        </div>       
+    </section>
+    <section>Restante do Site</section>
+    <script src="script.js"></script>
+</body>
+</html>
